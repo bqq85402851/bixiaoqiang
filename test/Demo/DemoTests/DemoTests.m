@@ -1,19 +1,19 @@
 //
-//  ALBCDemoSevenTests.m
-//  ALBCDemoSevenTests
+//  DemoTests.m
+//  DemoTests
 //
-//  Created by 杨汉池 on 15/9/12.
+//  Created by 杨汉池 on 15/9/18.
 //  Copyright (c) 2015年 杨汉池. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface ALBCDemoSevenTests : XCTestCase
+@interface DemoTests : XCTestCase
 
 @end
 
-@implementation ALBCDemoSevenTests
+@implementation DemoTests
 
 - (void)setUp {
     [super setUp];

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0AD2A8F91BA41022006CE5B7"
-               BuildableName = "ALBCDemoSeven.app"
-               BlueprintName = "ALBCDemoSeven"
-               ReferencedContainer = "container:ALBCDemoSeven.xcodeproj">
+               BlueprintIdentifier = "0AC3F83D1BABF87C00A8906A"
+               BuildableName = "Demo.app"
+               BlueprintName = "Demo"
+               ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0AD2A90C1BA41022006CE5B7"
-               BuildableName = "ALBCDemoSevenTests.xctest"
-               BlueprintName = "ALBCDemoSevenTests"
-               ReferencedContainer = "container:ALBCDemoSeven.xcodeproj">
+               BlueprintIdentifier = "0AC3F8501BABF87D00A8906A"
+               BuildableName = "DemoTests.xctest"
+               BlueprintName = "DemoTests"
+               ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0AD2A90C1BA41022006CE5B7"
-               BuildableName = "ALBCDemoSevenTests.xctest"
-               BlueprintName = "ALBCDemoSevenTests"
-               ReferencedContainer = "container:ALBCDemoSeven.xcodeproj">
+               BlueprintIdentifier = "0AC3F8501BABF87D00A8906A"
+               BuildableName = "DemoTests.xctest"
+               BlueprintName = "DemoTests"
+               ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AD2A8F91BA41022006CE5B7"
-            BuildableName = "ALBCDemoSeven.app"
-            BlueprintName = "ALBCDemoSeven"
-            ReferencedContainer = "container:ALBCDemoSeven.xcodeproj">
+            BlueprintIdentifier = "0AC3F83D1BABF87C00A8906A"
+            BuildableName = "Demo.app"
+            BlueprintName = "Demo"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AD2A8F91BA41022006CE5B7"
-            BuildableName = "ALBCDemoSeven.app"
-            BlueprintName = "ALBCDemoSeven"
-            ReferencedContainer = "container:ALBCDemoSeven.xcodeproj">
+            BlueprintIdentifier = "0AC3F83D1BABF87C00A8906A"
+            BuildableName = "Demo.app"
+            BlueprintName = "Demo"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AD2A8F91BA41022006CE5B7"
-            BuildableName = "ALBCDemoSeven.app"
-            BlueprintName = "ALBCDemoSeven"
-            ReferencedContainer = "container:ALBCDemoSeven.xcodeproj">
+            BlueprintIdentifier = "0AC3F83D1BABF87C00A8906A"
+            BuildableName = "Demo.app"
+            BlueprintName = "Demo"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>86CD2188-51D6-4789-A725-48FFA973EBD9</string>
+	<string>F78CFE3F-7C8E-4ED1-89AD-EA025A17A671</string>
 	<key>IDESourceControlProjectName</key>
-	<string>GCDDemo</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>86838130BD424D4B941E7A6B3963E3FBD8BAFEB2</key>
 		<string>github.com:bqq85402851/bixiaoqiang.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>test/GCDDemo/GCDDemo.xcodeproj</string>
+	<string>test/Demo/Demo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>86838130BD424D4B941E7A6B3963E3FBD8BAFEB2</key>

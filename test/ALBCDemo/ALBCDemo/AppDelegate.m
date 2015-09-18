@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -24,6 +24,8 @@
     } failedCallback:^(NSError *error) {
         NSLog(@"@初始化失败%@",error);
     }];
+    
+    self.window.rootViewController=[[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
     
     return YES;
 }

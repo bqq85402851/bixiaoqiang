@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  ALBCDemoSeven
+//  Demo
 //
-//  Created by 杨汉池 on 15/9/12.
+//  Created by 杨汉池 on 15/9/18.
 //  Copyright (c) 2015年 杨汉池. All rights reserved.
 //
 

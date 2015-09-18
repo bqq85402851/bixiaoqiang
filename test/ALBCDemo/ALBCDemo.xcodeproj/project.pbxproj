@@ -538,6 +538,7 @@
 				0AD2A8BB1BA40A50006CE5B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AD2A8BC1BA40A50006CE5B7 /* Build configuration list for PBXNativeTarget "ALBCDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +547,7 @@
 				0AD2A8BE1BA40A50006CE5B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
