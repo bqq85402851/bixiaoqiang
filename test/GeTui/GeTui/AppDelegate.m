@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  Demo
+//  GeTui
 //
-//  Created by 杨汉池 on 15/9/18.
+//  Created by 杨汉池 on 15/9/21.
 //  Copyright (c) 2015年 杨汉池. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -20,7 +20,6 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    self.window.rootViewController=[[ViewController alloc]init];
     return YES;
 }
 
