@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>5DB6C385-52CC-4D31-93F0-1ACAB58B25D1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>GeTui</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>86838130BD424D4B941E7A6B3963E3FBD8BAFEB2</key>
 		<string>github.com:bqq85402851/bixiaoqiang.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>test/GeTui/GeTui.xcodeproj/project.xcworkspace</string>
+	<string>test/GeTui/GeTui.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>86838130BD424D4B941E7A6B3963E3FBD8BAFEB2</key>
