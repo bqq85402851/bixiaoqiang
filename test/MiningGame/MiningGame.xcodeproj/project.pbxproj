@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB0B5DC1BBA335300667253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0B5DB1BBA335300667253 /* main.m */; };
+		0AB0B5DF1BBA335300667253 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0B5DE1BBA335300667253 /* AppDelegate.m */; };
+		0AB0B5E11BBA335300667253 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB0B5E01BBA335300667253 /* Images.xcassets */; };
+		0AB0B5E41BBA335300667253 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AB0B5E21BBA335300667253 /* LaunchScreen.xib */; };
+		0AB0B5F01BBA335300667253 /* MiningGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0B5EF1BBA335300667253 /* MiningGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AB0B5EA1BBA335300667253 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AB0B5CE1BBA335300667253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB0B5D51BBA335300667253;
+			remoteInfo = MiningGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AB0B5D61BBA335300667253 /* MiningGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiningGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB0B5DA1BBA335300667253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB0B5DB1BBA335300667253 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AB0B5DD1BBA335300667253 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AB0B5DE1BBA335300667253 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AB0B5E01BBA335300667253 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0AB0B5E31BBA335300667253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0AB0B5E91BBA335300667253 /* MiningGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiningGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB0B5EE1BBA335300667253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB0B5EF1BBA335300667253 /* MiningGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiningGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AB0B5D31BBA335300667253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB0B5E61BBA335300667253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB0B5CD1BBA335300667253 = {
+			isa = PBXGroup;
+			children = (
+				0AB0B5D81BBA335300667253 /* MiningGame */,
+				0AB0B5EC1BBA335300667253 /* MiningGameTests */,
+				0AB0B5D71BBA335300667253 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AB0B5D71BBA335300667253 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0B5D61BBA335300667253 /* MiningGame.app */,
+				0AB0B5E91BBA335300667253 /* MiningGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AB0B5D81BBA335300667253 /* MiningGame */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0B5DD1BBA335300667253 /* AppDelegate.h */,
+				0AB0B5DE1BBA335300667253 /* AppDelegate.m */,
+				0AB0B5E01BBA335300667253 /* Images.xcassets */,
+				0AB0B5E21BBA335300667253 /* LaunchScreen.xib */,
+				0AB0B5D91BBA335300667253 /* Supporting Files */,
+			);
+			path = MiningGame;
+			sourceTree = "<group>";
+		};
+		0AB0B5D91BBA335300667253 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0B5DA1BBA335300667253 /* Info.plist */,
+				0AB0B5DB1BBA335300667253 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AB0B5EC1BBA335300667253 /* MiningGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0B5EF1BBA335300667253 /* MiningGameTests.m */,
+				0AB0B5ED1BBA335300667253 /* Supporting Files */,
+			);
+			path = MiningGameTests;
+			sourceTree = "<group>";
+		};
+		0AB0B5ED1BBA335300667253 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0B5EE1BBA335300667253 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AB0B5D51BBA335300667253 /* MiningGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB0B5F31BBA335300667253 /* Build configuration list for PBXNativeTarget "MiningGame" */;
+			buildPhases = (
+				0AB0B5D21BBA335300667253 /* Sources */,
+				0AB0B5D31BBA335300667253 /* Frameworks */,
+				0AB0B5D41BBA335300667253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiningGame;
+			productName = MiningGame;
+			productReference = 0AB0B5D61BBA335300667253 /* MiningGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AB0B5E81BBA335300667253 /* MiningGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB0B5F61BBA335300667253 /* Build configuration list for PBXNativeTarget "MiningGameTests" */;
+			buildPhases = (
+				0AB0B5E51BBA335300667253 /* Sources */,
+				0AB0B5E61BBA335300667253 /* Frameworks */,
+				0AB0B5E71BBA335300667253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB0B5EB1BBA335300667253 /* PBXTargetDependency */,
+			);
+			name = MiningGameTests;
+			productName = MiningGameTests;
+			productReference = 0AB0B5E91BBA335300667253 /* MiningGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AB0B5CE1BBA335300667253 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "杨汉池";
+				TargetAttributes = {
+					0AB0B5D51BBA335300667253 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0AB0B5E81BBA335300667253 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0AB0B5D51BBA335300667253;
+					};
+				};
+			};
+			buildConfigurationList = 0AB0B5D11BBA335300667253 /* Build configuration list for PBXProject "MiningGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AB0B5CD1BBA335300667253;
+			productRefGroup = 0AB0B5D71BBA335300667253 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AB0B5D51BBA335300667253 /* MiningGame */,
+				0AB0B5E81BBA335300667253 /* MiningGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AB0B5D41BBA335300667253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB0B5E41BBA335300667253 /* LaunchScreen.xib in Resources */,
+				0AB0B5E11BBA335300667253 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB0B5E71BBA335300667253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB0B5D21BBA335300667253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB0B5DF1BBA335300667253 /* AppDelegate.m in Sources */,
+				0AB0B5DC1BBA335300667253 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB0B5E51BBA335300667253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB0B5F01BBA335300667253 /* MiningGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AB0B5EB1BBA335300667253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB0B5D51BBA335300667253 /* MiningGame */;
+			targetProxy = 0AB0B5EA1BBA335300667253 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AB0B5E21BBA335300667253 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AB0B5E31BBA335300667253 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AB0B5F11BBA335300667253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AB0B5F21BBA335300667253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AB0B5F41BBA335300667253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiningGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AB0B5F51BBA335300667253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiningGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AB0B5F71BBA335300667253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiningGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiningGame.app/MiningGame";
+			};
+			name = Debug;
+		};
+		0AB0B5F81BBA335300667253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiningGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiningGame.app/MiningGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB0B5D11BBA335300667253 /* Build configuration list for PBXProject "MiningGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB0B5F11BBA335300667253 /* Debug */,
+				0AB0B5F21BBA335300667253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB0B5F31BBA335300667253 /* Build configuration list for PBXNativeTarget "MiningGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB0B5F41BBA335300667253 /* Debug */,
+				0AB0B5F51BBA335300667253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0AB0B5F61BBA335300667253 /* Build configuration list for PBXNativeTarget "MiningGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB0B5F71BBA335300667253 /* Debug */,
+				0AB0B5F81BBA335300667253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AB0B5CE1BBA335300667253 /* Project object */;
+}

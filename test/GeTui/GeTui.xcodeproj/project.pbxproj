@@ -427,7 +427,7 @@
 					"$(PROJECT_DIR)/dist",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9de7ae2c-3d56-47c8-be4f-c139e1a6e155";
+				PROVISIONING_PROFILE = "ddd62ceb-8847-4e07-96d5-088a85e65ef0";
 			};
 			name = Debug;
 		};
@@ -448,7 +448,7 @@
 					"$(PROJECT_DIR)/dist",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "496eb82f-81c7-4da1-9ba7-41d36ce0160c";
+				PROVISIONING_PROFILE = "0561c220-4e1e-4c6b-8409-ca106867707c";
 			};
 			name = Release;
 		};
@@ -505,6 +505,7 @@
 				0AB1E5121BAFCDAC00ECCF67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AB1E5131BAFCDAC00ECCF67 /* Build configuration list for PBXNativeTarget "GeTuiTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				0AB1E5151BAFCDAC00ECCF67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

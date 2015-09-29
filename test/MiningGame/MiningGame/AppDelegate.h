@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  GeTui
+//  MiningGame
 //
-//  Created by 杨汉池 on 15/9/21.
+//  Created by 杨汉池 on 15/9/29.
 //  Copyright (c) 2015年 杨汉池. All rights reserved.
 //
 
@@ -11,7 +11,7 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property(nonatomic,copy)void (^Record)(NSString*record);
+
 
 @end
 

@@ -349,9 +349,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Jiang (9FGSQ2WX5K)";
 				INFOPLIST_FILE = iPhoneModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ddd62ceb-8847-4e07-96d5-088a85e65ef0";
 			};
 			name = Debug;
 		};
@@ -359,9 +361,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tiance Network Technology Co., Ltd. Pingyang (6UFQ52YCBY)";
 				INFOPLIST_FILE = iPhoneModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0561c220-4e1e-4c6b-8409-ca106867707c";
 			};
 			name = Release;
 		};
